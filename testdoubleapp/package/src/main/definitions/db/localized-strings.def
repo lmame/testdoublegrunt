@@ -1,0 +1,26 @@
+begin localizable string
+   name           : LSGADG1AANVNMAQJDQUYQJDQUY1E6H
+   timestamp      : 1587411898
+   owner          : developer
+   bundle-version : 1.0-SNAPSHOT
+   last-changed   : developer
+   bundle         : com.example.testdoubleapp
+   stringId       : 9d18f9fe-2c83-42ac-911a-1592bc03b93d
+   owner-objects  : 17\bb7f2704-b5c8-46d9-94b9-6d315aca196e
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : <p>test</p>
+end
+begin localizable string
+   name           : LSGADG1AANVNMAQJDQYHQJDQYH1ERO
+   timestamp      : 1587412015
+   owner          : developer
+   bundle-version : 1.0-SNAPSHOT
+   last-changed   : developer
+   bundle         : com.example.testdoubleapp
+   stringId       : 6b371720-ce42-4f4b-a42d-230f19065a7f
+   owner-objects  : 17\com-example-testdoubleapp-0bc17b27-a20f-4315-be0d-36405bfb05ce
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Home
+end

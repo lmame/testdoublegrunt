@@ -25,9 +25,10 @@ begin schema data
    data           :  <entryItem>        <f1_Request_ID>000000000015728</f1_Request_ID>        <f2_Submitter>ARSERVER</f2_Submitter>        <f3_Create_Date>2020-04-20T19:
    data           : 35:57+00:00</f3_Create_Date>        <f4_Assigned_To xsi:nil="true"/>        <f5_Last_Modified_By>ARSERVER</f5_Last_Modified_By>        <f6_Modified_D
    data           : ate>2020-04-20T19:35:57+00:00</f6_Modified_Date>        <f7_Status>New</f7_Status>        <f8_Short_Description> </f8_Short_Description>        <f15_
-   data           : Status_History xsi:nil="true"/>        <f16_Notifier_Listening>Not Listening</f16_Notifier_Listening>        <f17__Record_GUID>AGGADG1AANVNMAQJDQ5XQIF
-   data           : PL11DFL</f17__Record_GUID>        <f37__Record_ID>AGGADG1AANVNMAQJDQ5XQIFPL11DFL</f37__Record_ID>        <f1700_Application_Name>com.example.testdoubl
-   data           : eapp</f1700_Application_Name>        <f1701_Role_Name>Event Report Access Role</f1701_Role_Name>        <f1702_Role_ID>-211</f1702_Role_ID>        <f
-   data           : 2001_Test xsi:nil="true"/>        <f2002_Production xsi:nil="true"/>        <f301600300_Datatag xsi:nil="true"/>    </entryItem></entryList>
+   data           : Status_History>2020-04-20T19:35:57+00:00ARSERVER</f15_Status_History>        <f16_Notifier_Listening xsi:nil="true"/>        <f17__Record_GUID>AGGAD
+   data           : G1AANVNMAQJDQ5XQIFPL11DFL</f17__Record_GUID>        <f37__Record_ID>AGGADG1AANVNMAQJDQ5XQIFPL11DFL</f37__Record_ID>        <f1700_Application_Name>com
+   data           : .example.testdoubleapp</f1700_Application_Name>        <f1701_Role_Name>Event Report Access Role</f1701_Role_Name>        <f1702_Role_ID>-211</f1702_R
+   data           : ole_ID>        <f2001_Test xsi:nil="true"/>        <f2002_Production xsi:nil="true"/>        <f301600300_Datatag xsi:nil="true"/>    </entryItem></
+   data           : entryList>
 end
 
