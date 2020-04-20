@@ -7,15 +7,16 @@
         "coverage": "./target/coverage",
         "resources": [
             "./",
-			"$RX_SDK_HOME/standardlib"
+			"$RX_SDK_HOME/standardlib",
+            "../../testdoublelib/bundle"
         ],
         "options": {
             "livereload-port": 39005,
             "skip-tests": true,
             "skip-validation": true,
-            "api-host": "localhost",
-            "api-port": 8008,
-			"api-https": false,
+            "api-host": "developer5805.innovate.bmc.com",
+            "api-port": 443,
+			"api-https": true,
             "host": "localhost",
             "port": 9005
         },
