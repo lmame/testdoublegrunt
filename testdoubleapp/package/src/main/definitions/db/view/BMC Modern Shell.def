@@ -2,7 +2,7 @@ begin view definition
    name           : com.example.testdoubleapp:BMC Modern Shell
    definition     : {
    definition     :   "version" : "1.0-SNAPSHOT",
-   definition     :   "lastUpdateTime" : 1508765171795,
+   definition     :   "lastUpdateTime" : 1587411357100,
    definition     :   "lastChangedBy" : "ARSERVER",
    definition     :   "owner" : "ARSERVER",
    definition     :   "name" : "com.example.testdoubleapp:BMC Modern Shell",
@@ -11,14 +11,14 @@ begin view definition
    definition     :   "overlayGroupId" : "1",
    definition     :   "developerId" : "com.example",
    definition     :   "scope" : "PUBLIC",
+   definition     :   "internal" : false,
    definition     :   "guid" : "com-example-testdoubleapp-7d909a8d-94f3-4eec-b53f-ce77e747bdcd",
    definition     :   "layout" : "{\"layoutTemplate\":5,\"columns\":[{\"role\":\"content\",\"children\":[{\"static\":true,\"componentDefinitionId\":\"com-example-testdoubleapp-98f08c9e-a523-4f30-8512-85465d3a0b5f\"}]}],\"componentDefinitionId\":\"com-example-testdoubleapp-7d909a8d-94f3-4eec-b53f-ce77e747bdcd\"}",
    definition     :   "inputParams" : [ ],
    definition     :   "outputParams" : [ ],
    definition     :   "componentDefinitions" : [ {
    definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
-   definition     :     "version" : "1.0-SNAPSHOT",
-   definition     :     "lastUpdateTime" : 1508765171795,
+   definition     :     "lastUpdateTime" : 1587411357100,
    definition     :     "lastChangedBy" : "ARSERVER",
    definition     :     "owner" : "ARSERVER",
    definition     :     "name" : "com-example-testdoubleapp-98f08c9e-a523-4f30-8512-85465d3a0b5f",
@@ -26,24 +26,24 @@ begin view definition
    definition     :     "description" : null,
    definition     :     "overlayGroupId" : "1",
    definition     :     "developerId" : "com.example",
+   definition     :     "internal" : false,
    definition     :     "guid" : "com-example-testdoubleapp-98f08c9e-a523-4f30-8512-85465d3a0b5f",
    definition     :     "type" : "rx-shell",
    definition     :     "propertiesByName" : {
    definition     :       "allowAppSwitching" : "true"
    definition     :     },
-   definition     :   	"permissions" : [ {
-   definition     :     	"ownerId" : {
-   definition     :       		"value" : 0,
-   definition     :       		"type" : "GROUP",
-   definition     :       		"name" : "Public"
-   definition     :     	},
-   definition     :     	"type" : "VISIBLE"
-   definition     :   	} ],
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP",
+   definition     :         "name" : "Public"
+   definition     :       },
+   definition     :       "type" : "VISIBLE"
+   definition     :     } ],
    definition     :     "layout" : "{\"componentDefinitionId\":\"com-example-testdoubleapp-187f819b-1f9d-45d3-aa96-a5e668714bac\",\"columns\":[{\"children\":[{\"componentDefinitionId\":\"com-example-testdoubleapp-0bc17b27-a20f-4315-be0d-36405bfb05ce\"}]}]}",
    definition     :     "componentDefinitions" : [ {
    definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
-   definition     :       "version" : "1.0-SNAPSHOT",
-   definition     :       "lastUpdateTime" : 1508765171795,
+   definition     :       "lastUpdateTime" : 1587411357100,
    definition     :       "lastChangedBy" : "ARSERVER",
    definition     :       "owner" : "ARSERVER",
    definition     :       "name" : "com-example-testdoubleapp-0bc17b27-a20f-4315-be0d-36405bfb05ce",
@@ -51,6 +51,7 @@ begin view definition
    definition     :       "description" : null,
    definition     :       "overlayGroupId" : "1",
    definition     :       "developerId" : "com.example",
+   definition     :       "internal" : false,
    definition     :       "guid" : "com-example-testdoubleapp-0bc17b27-a20f-4315-be0d-36405bfb05ce",
    definition     :       "type" : "rx-shell-menu-item",
    definition     :       "propertiesByName" : {
@@ -58,14 +59,14 @@ begin view definition
    definition     :         "menuItemName" : "Home",
    definition     :         "actionName" : "rxShellNavigateToStateAction"
    definition     :       },
-   definition     :   	 "permissions" : [ {
-   definition     :     	"ownerId" : {
-   definition     :       		"value" : 0,
-   definition     :       		"type" : "GROUP",
-   definition     :       		"name" : "Public"
-   definition     :     	},
-   definition     :     	"type" : "VISIBLE"
-   definition     :   	} ]
+   definition     :       "permissions" : [ {
+   definition     :         "ownerId" : {
+   definition     :           "value" : 0,
+   definition     :           "type" : "GROUP",
+   definition     :           "name" : "Public"
+   definition     :         },
+   definition     :         "type" : "VISIBLE"
+   definition     :       } ]
    definition     :     } ]
    definition     :   } ],
    definition     :   "permissions" : [ {
@@ -82,6 +83,8 @@ begin view definition
    definition     :   },
    definition     :   "allowOverlay" : true,
    definition     :   "type" : "SHELL",
-   definition     :   "styles" : null
+   definition     :   "styles" : null,
+   definition     :   "targetViewDefinitionName" : null,
+   definition     :   "targetExtensionContainerGuid" : null
    definition     : }
 end
