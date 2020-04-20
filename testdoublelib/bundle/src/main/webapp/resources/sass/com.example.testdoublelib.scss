@@ -1,0 +1,5 @@
+@import "<%= standardlibTarget %>/resources/sass/partials/core/variables";
+@import "variables";
+
+// View Components styles.
+@import "partials/test-label";
